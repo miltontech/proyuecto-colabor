@@ -1,0 +1,64 @@
+
+
+    <!DOCTYPE html>
+    <html lang="es">
+      <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <!--nombre e icono de la pestaña-->
+       
+        <title>PORQUE USAR BOOSTRAP</title>
+        <!--nombre e icono de la pestaña-->
+      
+    </head>
+
+<body>
+<h1 class="text-center mt-8">TECNOLOGIA-BOOSTRAP</h1>
+<div class="container" id="galeria">
+  <div class="container text-center"id="galeria_imagen">
+
+ <div class="row text-center">
+        <img id="imgGaleria" src="img/ventajas.jpg" alt="imagen" class="img-fluid">
+     </div>
+</div>
+  <div class="container"id="galeria_miniatura">
+      <div class="row">
+      
+    <img class="rounded mx-auto img-fluid miniatura" style="width:250px;" onclick="javascript:document.getElementById('imgGaleria').src=this.src" src="img/boostrap.png">
+   <img class="rounded mx-auto img-fluid miniatura" style="width:250px;" onclick="javascript:document.getElementById('imgGaleria').src=this.src" src="img/funcionamiento.jpg">
+   <img class="rounded mx-auto img-fluid miniatura" style="width:250px;" onclick="javascript:document.getElementById('imgGaleria').src=this.src" src="img/ventaja2.jpg">
+   <img class="rounded mx-auto img-fluid miniatura" style="width:250px;" onclick="javascript:document.getElementById('imgGaleria').src=this.src" src="img/desventaja2.jpg">
+   <img class="rounded mx-auto img-fluid miniatura" style="width:250px;" onclick="javascript:document.getElementById('imgGaleria').src=this.src" src="img/desventaja3.jpg">
+
+       </div>
+
+     </div>
+</div>
+
+<style>
+
+.miniatura{
+
+     border: 2px solid;
+    border-color: black ;
+
+}
+.miniatura:hover{
+ cursor:pointer;
+ opacity:0.5;
+ border-color: crimson;
+
+}
+
+
+</style>
+
+
+
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
